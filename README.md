@@ -17,8 +17,8 @@
 |          Murph Count In React                | 
 | --------------------------------|
 |![murphToGit](https://user-images.githubusercontent.com/79272744/174485851-f809ed1d-f992-4c06-8020-ec4a664eef28.gif)|
-
 |<img width="955" alt="‏‏murphPicture" src="https://user-images.githubusercontent.com/79272744/174485573-f22890c6-8be7-4c2a-9592-06bc9588d8f4.PNG">|
+
 
 
 |          Tic-Ta-Toe                | 
