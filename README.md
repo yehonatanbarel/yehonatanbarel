@@ -14,8 +14,8 @@
 
 <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="jareactvascript" height="40" width="40"/>
 
-<img align="center" src="![react-js](https://user-images.githubusercontent.com/79272744/174897843-520ab0d6-3f2f-49c7-9a53-0324a7597473.png)"
- alt="jareactvascript" height="40" width="40"/>
+![react-js](https://user-images.githubusercontent.com/79272744/174897843-520ab0d6-3f2f-49c7-9a53-0324a7597473.png =40x40)
+
 
 
 
