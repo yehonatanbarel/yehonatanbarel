@@ -15,7 +15,7 @@
 <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="jareactvascript" height="40" width="40"/>
 
 
-![logo192](https://user-images.githubusercontent.com/79272744/174899988-5ec8617c-3cec-4dfb-9ad8-0c7130669e36.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="java" width="75" height="55"/> 
 
 
 
