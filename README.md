@@ -39,3 +39,7 @@
 | --------------------------------|
 |![titatoe](https://user-images.githubusercontent.com/79272744/168284200-1404c16e-9b7e-4058-89e3-7bf712817fd6.gif)|
 
+
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=yehonatanbarel&layout=compact"/>
+
