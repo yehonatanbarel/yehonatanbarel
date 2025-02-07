@@ -46,9 +46,6 @@ The mall gave a score to each consumer for how much he buys in the mall (Column 
 
 
 
-|          Tic-Ta-Toe                | 
-| --------------------------------|
-|![titatoe](https://user-images.githubusercontent.com/79272744/168284200-1404c16e-9b7e-4058-89e3-7bf712817fd6.gif)|
 
 
 
