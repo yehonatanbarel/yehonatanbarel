@@ -47,5 +47,30 @@ The mall gave a score to each consumer for how much he buys in the mall (Column 
 
 
 
+🛍️ Customer Classification for Targeted Advertising
+📌 Project Overview
+This project focuses on improving advertising strategies for a shopping mall by categorizing customers into three distinct groups based on their purchasing behavior. The goal is to optimize marketing efforts by tailoring promotions to different customer segments.
+
+🎯 Customer Segmentation
+Customers are divided into three groups:
+
+Group 0: Low-spending customers. Advertising efforts are minimized for this group.
+Group 1: Moderate spenders. Targeted with incentives like club memberships to increase loyalty.
+Group 2: High-value customers. Special promotions (e.g., "Buy 1 Get 1 Free") are used to further boost their spending.
+🔍 Approach
+Data Preprocessing: Cleaning and structuring customer data.
+Feature Engineering: Identifying key attributes that influence purchasing behavior.
+Model Selection: Using classification algorithms to accurately segment customers.
+Evaluation: Measuring model performance and optimizing results.
+📊 Technologies Used
+Python (Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn)
+Machine Learning Classification Models
+Jupyter Notebook for analysis and visualization
+🚀 Key Takeaways
+By leveraging machine learning, this project helps businesses optimize their advertising spend by focusing on customers with the highest potential return on investment.
+
+
+
+
 
 
