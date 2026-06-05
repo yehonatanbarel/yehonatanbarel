@@ -4,6 +4,8 @@
 > No cloud. No data sent anywhere. Just you and an AI that speaks back.*
 
 <!-- Replace this comment with a screenshot or GIF of the app once it's uploaded to your profile repo -->
+<img width="332" height="467" alt="image" src="https://github.com/user-attachments/assets/cabe0cfc-5c19-4950-a19b-830b6540b8a6" />
+
 
 ### How It Works
 
