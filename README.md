@@ -1,21 +1,3 @@
-<div align="center">
-
-# Yehonatan Barel
-
-**Software developer who builds things that talk back.**
-
-</div>
-
----
-
-## About Me
-
-I'm a software developer who enjoys working at the intersection of AI, audio, and real-world usability.  
-My work spans local AI pipelines, Python backends, and React frontends.  
-I care about software that runs entirely on your machine — no accounts, no cloud, no data sent anywhere.
-
----
-
 ## ⭐ Featured Project — BRYCE AI Assistant
 
 > *A fully local, privacy-first voice AI assistant.  
