@@ -1,56 +1,82 @@
-### Hi there 👋
+<div align="center">
 
+# Yehonatan Barel
 
-<img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" height="40" width="40" /><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" height="40" width="40" /><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" height="40" width="40" /><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" height="40" width="40"/>
+**Software developer who builds things that talk back.**
 
-<img align="center" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" height="40" width="40" /><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit Learn" height="40" width="40" />
+</div>
 
-<img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="Html5" height="40" width="40" /><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="Css3" height="40" width="40" /><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" height="40" width="40" />
+---
 
-<img align="center" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" height="40" width="40" /><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="jareactvascript" height="40" width="40"/>
+## About Me
 
-<img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" height="40" width="40" /><img align="center" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" height="40" width="40" />
+I'm a software developer who enjoys working at the intersection of AI, audio, and real-world usability.  
+My work spans local AI pipelines, Python backends, and React frontends.  
+I care about software that runs entirely on your machine — no accounts, no cloud, no data sent anywhere.
 
+---
 
+## ⭐ Featured Project — BRYCE AI Assistant
 
-# Projects
-|          Pokemon              | 
-| --------------------------------|
-|![show_resizable](https://user-images.githubusercontent.com/79272744/148693960-ae414fe3-cbf5-4358-a849-9026f513087a.gif)|
+> *A fully local, privacy-first voice AI assistant.  
+> No cloud. No data sent anywhere. Just you and an AI that speaks back.*
 
-|![level_zero](https://user-images.githubusercontent.com/79272744/148693992-58948b5e-7f5d-46b3-8e5a-69e02574b2dd.gif)|
+<!-- Replace this comment with a screenshot or GIF of the app once it's uploaded to your profile repo -->
 
+### How It Works
 
-|          React Murph Count                 | 
-| --------------------------------|
-|![Murph-gif](https://user-images.githubusercontent.com/79272744/180866347-c77d1103-7695-4265-a5b8-e018bde63751.gif)|
+```
+🎙️  You speak
+      ↓
+[ Whisper STT ]   — speech-to-text, runs on CPU, int8 quantized for speed
+      ↓
+[ Ollama LLM  ]   — local inference, llama3.2:1b, tokens streamed in real time
+      ↓
+[ Piper TTS   ]   — text-to-speech, custom voice, raw PCM audio output
+      ↓
+🔊  Bryce speaks back
+```
 
+### Features
 
-## Classification Project
-***In this project, we try to improve the advertising for every customer who comes to the mall with KNN & LogisticRegression models, for which we divided the consumers into 3 groups: 0,1,2.***
+- **100% offline** — Whisper + Ollama + Piper, nothing leaves your machine after setup
+- **Push-to-talk** — hold spacebar to record, release to process; no button clicking
+- **Real-time audio meter** — visual feedback while your mic is live
+- **Streamed responses** — LLM tokens are buffered into speech as they arrive, no waiting for the full reply
+- **Interruptible at any moment** — STOP button halts both inference and audio playback instantly
+- **Conversation memory** — maintains the last 10 turns of context across the session
+- **English tutor persona** — gives gentle grammar feedback and keeps the conversation moving
 
-- Group 0 - This is a group of consumers who do not buy much in the first place, so we will not invest in advertising for it.
-- Group 1 - This is a group that buys in the mall at an average ratio to other customers, so for example, for them we will publish a club card, so we will make them buy from us in the mall more than than elsewhere and so we will make them more loyal customers.
-- Group 2 - This is the group of customers who are loyal to the mall in the first place and buy a lot. Therefore for this group we can, for example, advertise 1 + 1 promotions for them. Since they are loyal customers anyway with the help of this sale we can make them buy even more at the mall (they were looking to buy a certain product but saw that there is a 1 + 1 sale on another product and will buy it as well).
-The division into groups is as follows
-The mall gave a score to each consumer for how much he buys in the mall (Column - Spending Score (1-100)). Therefore, with the help of this column, we divided the consumers into three groups:
+### Stack
 
-- 0 - This is the group that got the score 0-33.
-- 1 - This is the group that received a score of 33-66.
-- 2 - This is the group that received the score 66-100
+| Component | Technology |
+|---|---|
+| GUI | Python · CustomTkinter |
+| Speech-to-Text | faster-whisper · Whisper base.en · int8 quantization |
+| Language Model | Ollama · llama3.2:1b |
+| Text-to-Speech | Piper TTS · en_US-bryce-medium voice |
+| Audio I/O | sounddevice · 16 kHz recording · 22 kHz playback |
 
+🔗 **[github.com/yehonatanbarel/speak-english-ai](https://github.com/yehonatanbarel/speak-english-ai)**
 
-|         React TO-DO                | 
-| --------------------------------|
-|<img width="953" alt="‏‏toDo pic for git" src="https://user-images.githubusercontent.com/79272744/174808029-f33f2a73-f6b2-454b-b432-7ba6cbc17e8f.PNG">|
+---
 
+## Other Projects
 
+| Project | Description | Tech |
+|---|---|---|
+| 🎮 Pokemon | Animated game with resizable window and sprite sheets | Java |
+| 💪 Murph Counter | Workout rep counter with animated tracking | React |
+| 🛒 Customer Classifier | Segments mall shoppers into loyalty groups using KNN & Logistic Regression | Python · Scikit-learn · Pandas |
+| ✅ To-Do App | Minimal task manager with add, complete, and delete flow | React |
 
+---
 
+## Tech Stack
 
-
-
-
-
-
-
+| Category | Technologies |
+|---|---|
+| Languages | 🐍 Python · ☕ Java · ⚡ JavaScript · 🔵 C · 🌐 HTML · 🎨 CSS |
+| AI / Data | 🎙️ Whisper · 🦙 Ollama · 🔢 NumPy · 🐼 Pandas · 🤖 Scikit-learn |
+| Frameworks | ⚛️ React · 🌶️ Flask · 🅱️ Bootstrap · 🖥️ CustomTkinter |
+| Tools | 🔧 Git · 🐧 Linux |
